@@ -81,7 +81,7 @@ Once a PIN has been set, the system works as a basic PIN verification lock.
 ---
 
 ## No action feature
-- if no acion in setting passkey mode, after 2 minutes the system will go to sleep
+- if no action in setting passkey mode, after 2 minutes the system will go to sleep
 - if no action in entering passkey mode, after 3 minutes the system will go to sleep
 - to wake up the system click the power button
 
