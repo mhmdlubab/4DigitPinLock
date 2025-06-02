@@ -37,16 +37,6 @@ Refer to the included schematic for wiring details. Note the important hardware 
   source, otherwise the program will have problems excuting properly(a common problem in arduino if we connect everything on the board when not using usb), if you use this appraoch remember to connect everything
   to a common ground, the board, the Servo, and the Servo power source(another battery or lithuim battary)
   
-## Installation
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/4DigitPinLock.git
-2. Open the 4digitPIN.ino file in the Arduino IDE.
-
-3. Connect your hardware according to the wiring diagram.
-
-4. Upload the code to your Arduino board.
 
 ## Usage
 
