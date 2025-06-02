@@ -10,6 +10,11 @@ A simple 4-digit PIN lock system implemented using an Arduino Mega 2560 board an
 - Red LED indicates incorrect PIN entry
 - passive buzzer for sfx(correct/incorrect pin, changing digit beep)
 
+## Simulation of the Project
+
+Below is a link to a simulation of the project, although it doesn't work exactly as the physical version, for example the sleep mode doesn't exist, and the sound of changing digits is not noticable if you click fast, but can be noticable if do a long click.
+https://wokwi.com/projects/432672116727008257
+
 ## Hardware
 
 - Arduino Mega 2560 board
@@ -84,6 +89,9 @@ Once a PIN has been set, the system works as a basic PIN verification lock.
 - if no action in setting passkey mode, after 2 minutes the system will go to sleep
 - if no action in entering passkey mode, after 3 minutes the system will go to sleep
 - to wake up the system click the power button
+
+## Power cut off situation
+- upon reconnecting the power the Servo will move to postion 180(if it was not already), but the thing is it will be on 0 if power is loss during setting the passkey state, we can bypass this by designing the safe door so that when we close it it pushes the Servo to position 180, or we can make sure to lock using the program while in setting passkey state by long pressing the powerButton, which will make the program enter the lock state and turn the Servo to position 180.
 
 
 
