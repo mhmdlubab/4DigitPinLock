@@ -12,7 +12,7 @@ A simple 4-digit PIN lock system implemented using an Arduino Mega 2560 board an
 
 ## Simulation of the Project
 
-Below is a link to a simulation of the project, although it doesn't work exactly as the physical version, for example the sleep mode doesn't exist, and the sound of changing digits is not noticable if you click fast, but can be noticable if do a long click.
+Below is a link to a simulation of the project, although it doesn't work exactly as the physical version, for example the sleep mode doesn't exist, and the sound of changing digits is not noticable if you click fast, but can be noticable if do a long click, another thing the short click and long click doesn't work properly, for example if you wanna do a long click the short click will fire too, but that won't happen in the physical version.
 https://wokwi.com/projects/432672116727008257
 
 ## Hardware
